@@ -1,0 +1,34 @@
+* {
+	color: rgb(103, 44, 170);
+}	
+ 
+body { 
+  	font-family: Calibri, sans-serif;
+	padding: 1%;
+	background-image: url("https://blog.hootsuite.com/wp-content/uploads/2021/07/free-stock-photos-12.jpeg");
+}
+ 
+#colDiv {
+    display: flex;
+	justify-content: space-between;
+}
+  
+#textDiv #imageDiv {
+    display: inline;
+}
+
+#fullDiv {
+	background-color: rgba(0, 0, 0, 0.4);
+	padding: 0.5% 1% 0.5% 1%;
+	border-radius: 25px;
+	max-width: fit-content;
+	margin: auto;
+}
+
+.Major-Heading {
+	color: rgb(57, 104, 2)
+}
+
+:hover {
+	color: rgb(29, 0, 86)
+}
